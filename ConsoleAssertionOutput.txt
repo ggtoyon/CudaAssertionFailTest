@@ -1,0 +1,21 @@
+requestMemory: size: requestMemory: size: 6464
+
+requestMemory: freeMem: 10485760
+requestMemory: freeMem: 10485760
+requestMemory: allocations.size() before: 0
+requestMemory: allocations.size() before: 0
+requestMemory: tid: 7436
+requestMemory: tid: 5656
+requestMemory: allocations.size() after: 1
+requestMemory: allocations.size() after: 2
+returnMemory: allocSize: 128
+returnMemory: allocations.back(): 64
+returnMemory: allocSize: 64
+returnMemory: tid: 7436
+retuOpenCV Error: Assertion failed (allocSize == allocations.back()) in `anonymo
+us-namespace'::MemoryStack::returnMemory, file C:\ExternalPackages\OpenCV-3.1.0-
+t1-VC12-CudaStreamDebug\src\opencv\modules\core\src\cuda_stream.cpp, line 110
+rnMemory: allocations.back(): 64
+returnMemory: tid: 5656
+returnMemory: allocations.size() before: 2
+returnMemory: allocations.size() after: 1
