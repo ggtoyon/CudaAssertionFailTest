@@ -67,6 +67,9 @@ void RunSurf()
 }
 
 //*****************************************************************************
+// The functions above are labeled with PASS or FAIL indicating whether memory
+// pool assertion fails when they are called on threads in debug. Replace
+// arguments for Thread1 and/or Thread 2 to test.
 //*****************************************************************************
 int main(int argc, const char** argv)
 {
